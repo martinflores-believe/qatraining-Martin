@@ -8,12 +8,12 @@ import { idProduct } from "../../support/pages/cartPage";
 import { userMail, userpassword } from "../../support/pages/loginPage";
 import { cardCVC, cardMonth, cardName, cardNumber, cardYear } from "../../support/pages/paymentPage";
 
-describe('TEST - GRUPO 1', {testIsolated: false}, () => {
+describe('TEST - GRUPO 2', {testIsolated: false}, () => {
     before(() => {
         cy.visit('https://automationexercise.com/')
     });
 
-    it('TestGrupo1', () => {
+    it('TestGrupo2', () => {
         goLoginPage();
         userLogin(userMail, userpassword);
         openWomanCategory();
